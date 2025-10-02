@@ -1,0 +1,168 @@
+/* Q#: All the elements have margin of 0 from the top, bottom, left, and right */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Q1: Display HTML5 semantic elements as block-level elements */
+header, nav, section, article, aside, footer, main, figure, figcaption {
+  display: block;
+}
+
+/* Q2: Body styling */
+body {
+  color: #f5f5f5; /* light text color */
+  background: url("../assets/images/dark-wood1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Q3: Container division */
+.container {
+  width: 950px;
+  margin: 5px auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Q4: Content class */
+.content {
+  line-height: 1.4em;
+  padding: 10px;
+}
+
+/* Q5: header, nav, footer */
+header, nav, footer {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Q6: Unordered list inside nav */
+nav ul {
+  margin: 0;
+  padding: 5px;
+  list-style: none;
+}
+
+/* Q7: Navigation list items */
+nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+/* Q8: Anchor pseudo-classes inside nav */
+nav ul li a:link {
+  color: #f5f5f5;
+}
+nav ul li a:visited {
+  color: #ccc;
+}
+nav ul li a:hover {
+  color: #ff9800;
+}
+nav ul li a:active {
+  color: #ff0000;
+}
+
+/* Q9: All anchor elements */
+a {
+  color: #ff9800;
+  text-decoration: none;
+}
+
+/* Q10: Headings h1, h2, h3 */
+h1, h2, h3 {
+  margin: 10px;
+  text-transform: uppercase;
+  color: #ff9800;
+}
+
+/* Q11: Image center class */
+.img-centre {
+  display: block;
+  margin: 5px auto;
+  padding: 2px;
+}
+
+/* Q12: Audio and Video elements */
+audio, video {
+  display: block;
+  margin: 10px auto;
+}
+
+/* Q13: Table element */
+table {
+  width: 800px;
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+/* Q14: td and th */
+td, th {
+  border: 1px solid #444;
+  padding: 2px 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Q15: th and tfoot td */
+th, tfoot td {
+  text-transform: uppercase;
+  background-color: #222;
+  color: #ff9800;
+}
+
+/* Q16: dt element */
+dt {
+  font-weight: bold;
+}
+
+/* Q17: footer element */
+footer {
+  font-size: 80%;
+  text-align: center;
+  padding: 1px 0;
+}
+
+/* Q18: iframe */
+iframe {
+  display: block;
+  margin: 10px auto;
+}
+
+/* Q19: fieldset */
+fieldset {
+  width: 500px;
+  margin: 20px auto;
+  border: 2px solid #ff9800;
+  background-color: #111;
+}
+
+/* Q20: legend */
+legend {
+  font-style: italic;
+  background-color: #ff9800;
+  color: #000;
+  margin: 0 10px;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+/* Q21: input[type=submit] */
+input[type="submit"] {
+  border: 2px solid #ff9800;
+  padding: 5px;
+  background-color: #ff9800;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Q22: input[type=submit]:hover */
+input[type="submit"]:hover {
+  background-color: #000;
+  color: #ff9800;
+  cursor: pointer;
+}
